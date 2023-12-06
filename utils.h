@@ -7,6 +7,8 @@
 
 namespace fs = std::filesystem;
 
+constexpr auto NEWLINE_DELIMITER = '\n';
+
 constexpr auto ASCII_ZERO = 48;
 constexpr auto ASCII_NINE = 57;
 
@@ -36,4 +38,24 @@ inline bool charIsDigit(const char c) {
 
 inline bool charIsLetter(const char c) {
     return (c <= 'z' && c >= 'a') || (c <= 'Z' && c >= 'A');
+}
+
+template <typename T>
+bool itr_is_first_line(T itr_begin, T itr_current, int line_size) {
+    return std::distance(itr_begin, itr_current) < line_size;
+}
+
+template <typename T>
+bool itr_is_last_line(T itr_begin, T itr_current, int line_size, int line_count) {
+    return std::distance(itr_begin, itr_current) >= line_size * (line_count - 1);
+}
+
+template <typename T>
+bool itr_is_first_column(T itr_begin, T itr_current, int line_size) {
+    return std::distance(itr_begin, itr_current) % line_size == 0;
+}
+
+template <typename T>
+bool itr_is_last_column(T itr_begin, T itr_current, int line_size) {
+    return std::distance(itr_begin, itr_current) % line_size == line_size - 1;
 }

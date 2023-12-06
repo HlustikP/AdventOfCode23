@@ -4,7 +4,6 @@
 #include "utils.h"
 #include "AdventSolution02.h"
 
-constexpr auto NEWLINE_DELIMITER = '\n';
 constexpr auto SET_DELIMITER = ';';
 constexpr auto RED_LIMIT = 12;
 constexpr auto GREEN_LIMIT = 13;

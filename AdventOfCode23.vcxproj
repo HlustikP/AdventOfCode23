@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AdventSolution03.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="AdventSolution01.cpp" />
     <ClCompile Include="AdventSolution02.cpp" />
@@ -28,11 +29,13 @@
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
     </Text>
     <Text Include="input02.txt" />
+    <Text Include="input03.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AdventSolution.h" />
     <ClInclude Include="AdventSolution01.h" />
     <ClInclude Include="AdventSolution02.h" />
+    <ClInclude Include="AdventSolution03.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
