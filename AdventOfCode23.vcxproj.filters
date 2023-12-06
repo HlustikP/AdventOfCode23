@@ -16,19 +16,40 @@
     <Filter Include="Source Files\01">
       <UniqueIdentifier>{65454e09-7a3b-4b0d-8c4b-8e4fc0dfcef3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\02">
+      <UniqueIdentifier>{c21b5ef4-2c2c-4e16-8cb3-d438e71b4651}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main01.cpp">
+    <ClCompile Include="AdventSolution01.cpp">
       <Filter>Source Files\01</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventSolution02.cpp">
+      <Filter>Source Files\02</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input01.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="input02.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventSolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventSolution01.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventSolution02.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

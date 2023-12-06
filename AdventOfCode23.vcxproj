@@ -19,14 +19,20 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main01.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="AdventSolution01.cpp" />
+    <ClCompile Include="AdventSolution02.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input01.txt">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
     </Text>
+    <Text Include="input02.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AdventSolution.h" />
+    <ClInclude Include="AdventSolution01.h" />
+    <ClInclude Include="AdventSolution02.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

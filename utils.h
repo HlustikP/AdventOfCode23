@@ -7,6 +7,9 @@
 
 namespace fs = std::filesystem;
 
+constexpr auto ASCII_ZERO = 48;
+constexpr auto ASCII_NINE = 57;
+
 inline std::optional<std::string> readFile(const fs::path& path) {
     if (!fs::exists(path)) {
         std::cerr << "[ERROR] [FILE] " << path << " does not exist" << std::endl;
@@ -25,4 +28,12 @@ inline std::optional<std::string> readFile(const fs::path& path) {
         std::cerr << "[ERROR] [FILE] " << e.what() << std::endl;
         return std::nullopt;
     }
+}
+
+inline bool charIsDigit(const char c) {
+    return c <= '9' && c >= '0';
+}
+
+inline bool charIsLetter(const char c) {
+    return (c <= 'z' && c >= 'a') || (c <= 'Z' && c >= 'A');
 }

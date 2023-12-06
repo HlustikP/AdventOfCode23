@@ -7,10 +7,9 @@
 #include <chrono>
 
 #include "utils.h"
+#include "AdventSolution01.h"
 
 constexpr auto DELIMITER = '\n';
-constexpr auto ASCII_ZERO = 48;
-constexpr auto ASCII_NINE = 57;
 constexpr std::array DIGIT_WORDS = { "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 constexpr std::array DIGIT_WORDS_REVERSED = { "eno", "owt", "eerht", "ruof", "evif", "xis", "neves", "thgie", "enin" };
 
@@ -111,18 +110,15 @@ int parseLinePart2(const std::string_view line) {
     return result;
 }
 
-int main() {
-    std::cout << "AdventOfCode23-01" << std::endl;
-
-    const auto start = std::chrono::high_resolution_clock::now();
+void AdventSolution01::solve() {
+    start_ = std::chrono::high_resolution_clock::now();
 
     const auto input = readFile("input01.txt");
     if (!input) {
-        return 1;
+        return;
     }
 
     const auto line_count = getLineCount(input.value()) + 1;
-    std::cout << "Input line count: " << line_count << std::endl;
 
     std::vector<int> numbers1;
     std::vector<int> numbers2;
@@ -137,11 +133,8 @@ int main() {
     auto const sum1 = std::reduce(numbers1.begin(), numbers1.end());
     auto const sum2 = std::reduce(numbers2.begin(), numbers2.end());
 
-    const auto end = std::chrono::high_resolution_clock::now();
+    end_ = std::chrono::high_resolution_clock::now();
 
     std::cout << "Sum 1: " << sum1 << std::endl;
     std::cout << "Sum 2: " << sum2 << std::endl;
-    std::cout << "Time: " << std::chrono::duration_cast<std::chrono::microseconds>(end - start).count() << "us" << std::endl;
-
-    return 0;
 }
