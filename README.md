@@ -17,3 +17,19 @@ I am not including any input files, please provide them yourself.
 ### 03
 [Challenge](https://adventofcode.com/2023/day/3)
 [My Solution](AdventSolution03.cpp)
+
+### 04
+[Challenge](https://adventofcode.com/2023/day/4)
+[My Solution](AdventSolution04.cpp) WIP
+
+### 05
+[Challenge](https://adventofcode.com/2023/day/5)
+[My Solution](AdventSolution05.cpp) WIP
+
+### 06
+[Challenge](https://adventofcode.com/2023/day/6)
+[My Solution](AdventSolution06.cpp) WIP
+
+### 07
+[Challenge](https://adventofcode.com/2023/day/7)
+[My Solution](AdventSolution07.cpp)

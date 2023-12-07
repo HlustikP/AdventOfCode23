@@ -20,6 +20,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AdventSolution03.cpp" />
+    <ClCompile Include="AdventSolution04.cpp" />
+    <ClCompile Include="AdventSolution05.cpp" />
+    <ClCompile Include="AdventSolution06.cpp" />
+    <ClCompile Include="AdventSolution07.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="AdventSolution01.cpp" />
     <ClCompile Include="AdventSolution02.cpp" />
@@ -30,13 +34,24 @@
     </Text>
     <Text Include="input02.txt" />
     <Text Include="input03.txt" />
+    <Text Include="input04.txt" />
+    <Text Include="input05.txt" />
+    <Text Include="input06.txt" />
+    <Text Include="input07.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AdventSolution.h" />
     <ClInclude Include="AdventSolution01.h" />
     <ClInclude Include="AdventSolution02.h" />
     <ClInclude Include="AdventSolution03.h" />
+    <ClInclude Include="AdventSolution04.h" />
+    <ClInclude Include="AdventSolution05.h" />
+    <ClInclude Include="AdventSolution06.h" />
+    <ClInclude Include="AdventSolution07.h" />
     <ClInclude Include="utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

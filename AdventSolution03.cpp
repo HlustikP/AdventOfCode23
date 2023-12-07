@@ -121,5 +121,5 @@ void AdventSolution03::solve() {
     end_ = std::chrono::high_resolution_clock::now();
 
     std::cout << "Task 1 - Engine Schematic Sum: " << sum << std::endl;
-    std::cout << "Task 2: " << std::endl;
+    std::cout << "Task 2: " << "WIP" << std::endl;
 }
