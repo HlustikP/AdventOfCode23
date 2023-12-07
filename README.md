@@ -20,7 +20,7 @@ I am not including any input files, please provide them yourself.
 
 ### 04
 [Challenge](https://adventofcode.com/2023/day/4)
-[My Solution](AdventSolution04.cpp) WIP
+[My Solution](AdventSolution04.cpp)
 
 ### 05
 [Challenge](https://adventofcode.com/2023/day/5)
