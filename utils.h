@@ -67,3 +67,12 @@ template <typename T>
 bool itr_is_last_column(T itr_begin, T itr_current, int line_size) {
     return std::distance(itr_begin, itr_current) % line_size == line_size - 1;
 }
+
+template <typename T>
+std::ostream& operator<<(std::ostream& os, const std::vector<T>& vec) {
+    for (const auto& v : vec) {
+        os << v << " ";
+    }
+
+    return os;
+}

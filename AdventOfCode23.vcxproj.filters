@@ -34,6 +34,9 @@
     <Filter Include="Source Files\07">
       <UniqueIdentifier>{36997582-9911-4ec6-b2bc-02b4fd93f682}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\08">
+      <UniqueIdentifier>{e5d215a8-114b-44cd-85c1-8bbc33833500}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AdventSolution01.cpp">
@@ -60,6 +63,9 @@
     <ClCompile Include="AdventSolution07.cpp">
       <Filter>Source Files\07</Filter>
     </ClCompile>
+    <ClCompile Include="AdventSolution08.cpp">
+      <Filter>Source Files\08</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input01.txt">
@@ -81,6 +87,9 @@
       <Filter>Resource Files</Filter>
     </Text>
     <Text Include="input07.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="input08.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>
@@ -110,6 +119,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="AdventSolution07.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventSolution08.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
