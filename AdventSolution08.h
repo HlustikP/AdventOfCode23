@@ -4,7 +4,7 @@
 
 class AdventSolution08 : public AdventSolution {
 public:
-    AdventSolution08() : AdventSolution(fs::path("input08.txt"), "Advent of Code 08 - TBD") {};
+    AdventSolution08() : AdventSolution(fs::path("input08.txt"), "Advent of Code 08 - Haunted Wasteland") {};
 
     void solve() override;
 };

@@ -4,6 +4,7 @@
 #include <fstream>
 #include <iostream>
 #include <optional>
+#include <algorithm>
 
 namespace fs = std::filesystem;
 
@@ -76,3 +77,84 @@ std::ostream& operator<<(std::ostream& os, const std::vector<T>& vec) {
 
     return os;
 }
+
+inline std::vector<int> get_numbers_from_string(std::string_view sv) {
+    std::vector<int> numbers;
+    int current_number = -1;
+    int current_digit = 0;
+    auto itr = sv.end() - 1;
+
+    while (itr >= sv.begin()) {
+        if (!charIsDigit(*itr)) {
+            if (current_number > -1) {
+                numbers.push_back(current_number);
+                current_digit = 0;
+                current_number = -1;
+            }
+        } else {
+            if (const auto digit = charDigitToInt(*itr); digit.has_value()) {
+                if (current_number == -1) {
+                    current_number = 0;
+                }
+
+                current_number += digit.value() * static_cast<int>(std::pow(10, current_digit));
+                current_digit++;
+            }
+        }
+
+        if (itr == sv.begin()) [[unlikely]] {
+            break;
+        }
+        itr--;
+    }
+
+    if (current_number > -1) {
+        numbers.push_back(current_number);
+    }
+
+    return numbers;
+};
+
+template <typename T, size_t N>
+inline std::vector<T> get_numbers_from_string(std::string_view sv, const std::array<char, N> skip_chars) {
+    std::vector<T> numbers;
+    T current_number = -1;
+    T current_digit = 0;
+    auto itr = sv.end() - 1;
+
+    while (itr >= sv.begin()) {
+        if (std::find(skip_chars.begin(), skip_chars.end(), *itr) != skip_chars.end()) {
+            itr--;
+            continue;
+        }
+
+        if (!charIsDigit(*itr)) {
+            if (current_number > -1) {
+                numbers.push_back(current_number);
+                current_digit = 0;
+                current_number = -1;
+            }
+        }
+        else {
+            if (const auto digit = charDigitToInt(*itr); digit.has_value()) {
+                if (current_number == -1) {
+                    current_number = 0;
+                }
+
+                current_number += digit.value() * static_cast<T>(std::pow(10, current_digit));
+                current_digit++;
+            }
+        }
+
+        if (itr == sv.begin()) [[unlikely]] {
+            break;
+            }
+        itr--;
+    }
+
+    if (current_number > -1) {
+        numbers.push_back(current_number);
+    }
+
+    return numbers;
+};

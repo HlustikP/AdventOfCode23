@@ -31,11 +31,11 @@
     <Filter Include="Source Files\06">
       <UniqueIdentifier>{4eb6be91-3d56-49ff-8a54-a6c59e30c4aa}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\07">
-      <UniqueIdentifier>{36997582-9911-4ec6-b2bc-02b4fd93f682}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\08">
       <UniqueIdentifier>{e5d215a8-114b-44cd-85c1-8bbc33833500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\07">
+      <UniqueIdentifier>{36997582-9911-4ec6-b2bc-02b4fd93f682}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -90,6 +90,57 @@
       <Filter>Resource Files</Filter>
     </Text>
     <Text Include="input08.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="input09.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="input10.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="input11.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="input12.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="input13.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="input14.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="input15.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="input16.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="input17.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="input18.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="input19.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="input20.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="input21.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="input22.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="input23.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="input24.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="LICENSE.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>

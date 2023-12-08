@@ -28,8 +28,12 @@ I am not including any input files, please provide them yourself.
 
 ### 06
 [Challenge](https://adventofcode.com/2023/day/6)
-[My Solution](AdventSolution06.cpp) WIP
+[My Solution](AdventSolution06.cpp)
 
 ### 07
 [Challenge](https://adventofcode.com/2023/day/7)
 [My Solution](AdventSolution07.cpp)
+
+### 08
+[Challenge](https://adventofcode.com/2023/day/8)
+[My Solution](AdventSolution08.cpp)
