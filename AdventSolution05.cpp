@@ -15,6 +15,6 @@ void AdventSolution05::solve() {
 
     end_ = std::chrono::high_resolution_clock::now();
 
-    std::cout << "Task 1: " << std::endl;
-    std::cout << "Task 2: " << std::endl;
+    std::cout << "Task 1: " << "WIP" << std::endl;
+    std::cout << "Task 2: " << "WIP" << std::endl;
 }

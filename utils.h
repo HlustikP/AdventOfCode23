@@ -78,22 +78,51 @@ std::ostream& operator<<(std::ostream& os, const std::vector<T>& vec) {
     return os;
 }
 
+template <typename T>
+std::optional<T> operator*= (std::optional<T>& lhs, const T& rhs) {
+    if (!lhs.has_value()) {
+        return std::nullopt;
+    }
+
+    lhs = lhs.value() * rhs;
+    return lhs;
+}
+
+template <typename T>
+std::optional<T> operator+= (std::optional<T>& lhs, const T& rhs) {
+    if (!lhs.has_value()) {
+        return std::nullopt;
+    }
+
+    lhs = lhs.value() + rhs;
+    return lhs;
+}
+
 inline std::vector<int> get_numbers_from_string(std::string_view sv) {
     std::vector<int> numbers;
-    int current_number = -1;
+    std::optional<int> current_number = std::nullopt;
     int current_digit = 0;
     auto itr = sv.end() - 1;
 
     while (itr >= sv.begin()) {
+        if (*itr == '-') {
+            current_number *= - 1;
+            if (itr == sv.begin()) [[unlikely]] {
+                break;
+            }
+            itr--;
+            continue;
+        }
+
         if (!charIsDigit(*itr)) {
-            if (current_number > -1) {
-                numbers.push_back(current_number);
+            if (current_number.has_value()) {
+                numbers.push_back(current_number.value());
                 current_digit = 0;
-                current_number = -1;
+                current_number = std::nullopt;
             }
         } else {
             if (const auto digit = charDigitToInt(*itr); digit.has_value()) {
-                if (current_number == -1) {
+                if (!current_number.has_value()) {
                     current_number = 0;
                 }
 
@@ -108,8 +137,8 @@ inline std::vector<int> get_numbers_from_string(std::string_view sv) {
         itr--;
     }
 
-    if (current_number > -1) {
-        numbers.push_back(current_number);
+    if (current_number.has_value()) {
+        numbers.push_back(current_number.value());
     }
 
     return numbers;
@@ -124,6 +153,12 @@ inline std::vector<T> get_numbers_from_string(std::string_view sv, const std::ar
 
     while (itr >= sv.begin()) {
         if (std::find(skip_chars.begin(), skip_chars.end(), *itr) != skip_chars.end()) {
+            itr--;
+            continue;
+        }
+
+        if (*itr == '-') {
+            current_number *= -1;
             itr--;
             continue;
         }
