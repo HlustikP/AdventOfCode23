@@ -40,6 +40,51 @@
     <Filter Include="Source Files\09">
       <UniqueIdentifier>{9c07340f-4d6f-41e0-99e8-02da2c07025f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\10">
+      <UniqueIdentifier>{239931bd-613b-46ce-a109-53c0b404d94e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\11">
+      <UniqueIdentifier>{48f2636c-54af-4017-a1bd-144026dfe376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\12">
+      <UniqueIdentifier>{b264eb81-ab95-40b1-aed3-6e0d5a4a3344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\13">
+      <UniqueIdentifier>{8da6dcf5-4197-4dad-934a-4e3863c79ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\14">
+      <UniqueIdentifier>{79b61451-50ea-4af3-bbbc-630d5616bdd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\15">
+      <UniqueIdentifier>{3271fcbe-9b66-488a-bcd1-02b841d30909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\16">
+      <UniqueIdentifier>{6713954b-0a69-4e9e-897c-11ee1ea9c529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\17">
+      <UniqueIdentifier>{0656d4f0-5b16-4254-afd4-7beb204020fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\18">
+      <UniqueIdentifier>{5abe6b21-a540-4a19-b3d2-a34da3eab556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\19">
+      <UniqueIdentifier>{9f55529f-2f5c-411b-9b2d-c0c3fbe9b008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\20">
+      <UniqueIdentifier>{72e28c09-3615-4c0a-8db6-cfcdbd1685eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\21">
+      <UniqueIdentifier>{772e0057-8c7f-46a0-a22a-3f1d058f9246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\22">
+      <UniqueIdentifier>{f0e1ddc0-ae06-4dae-bf71-86ac4ba91893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\23">
+      <UniqueIdentifier>{5dd04e8c-a495-4b1d-907c-959c7607fc54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\24">
+      <UniqueIdentifier>{842264c8-787a-4ffc-a327-c5e3ca9cbf50}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AdventSolution01.cpp">
@@ -71,6 +116,15 @@
     </ClCompile>
     <ClCompile Include="AdventSolution09.cpp">
       <Filter>Source Files\09</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventSolution10.cpp">
+      <Filter>Source Files\10</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventSolution11.cpp">
+      <Filter>Source Files\11</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventSolution12.cpp">
+      <Filter>Source Files\12</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -182,6 +236,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="AdventSolution09.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventSolution10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventSolution11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventSolution12.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

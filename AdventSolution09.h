@@ -8,4 +8,3 @@ public:
 
     void solve() override;
 };
-#pragma once

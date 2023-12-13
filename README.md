@@ -37,3 +37,19 @@ I am not including any input files, please provide them yourself.
 ### 08
 [Challenge](https://adventofcode.com/2023/day/8)
 [My Solution](AdventSolution08.cpp)
+
+### 09
+[Challenge](https://adventofcode.com/2023/day/9)
+[My Solution](AdventSolution09.cpp) WIP
+
+### 10
+[Challenge](https://adventofcode.com/2023/day/10)
+[My Solution](AdventSolution10.cpp) WIP
+
+### 11
+[Challenge](https://adventofcode.com/2023/day/11)
+[My Solution](AdventSolution11.cpp)
+
+### 12
+[Challenge](https://adventofcode.com/2023/day/12)
+[My Solution](AdventSolution12.cpp) WIP
