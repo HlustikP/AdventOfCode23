@@ -126,6 +126,12 @@
     <ClCompile Include="AdventSolution12.cpp">
       <Filter>Source Files\12</Filter>
     </ClCompile>
+    <ClCompile Include="AdventSolution13.cpp">
+      <Filter>Source Files\13</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventSolution14.cpp">
+      <Filter>Source Files\14</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input01.txt">
@@ -245,6 +251,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="AdventSolution12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventSolution13.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventSolution14.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

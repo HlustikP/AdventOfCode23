@@ -29,6 +29,8 @@
     <ClCompile Include="AdventSolution10.cpp" />
     <ClCompile Include="AdventSolution11.cpp" />
     <ClCompile Include="AdventSolution12.cpp" />
+    <ClCompile Include="AdventSolution13.cpp" />
+    <ClCompile Include="AdventSolution14.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="AdventSolution01.cpp" />
     <ClCompile Include="AdventSolution02.cpp" />
@@ -76,6 +78,8 @@
     <ClInclude Include="AdventSolution10.h" />
     <ClInclude Include="AdventSolution11.h" />
     <ClInclude Include="AdventSolution12.h" />
+    <ClInclude Include="AdventSolution13.h" />
+    <ClInclude Include="AdventSolution14.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>
   <ItemGroup>
