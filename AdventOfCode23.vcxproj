@@ -31,6 +31,7 @@
     <ClCompile Include="AdventSolution12.cpp" />
     <ClCompile Include="AdventSolution13.cpp" />
     <ClCompile Include="AdventSolution14.cpp" />
+    <ClCompile Include="AdventSolution15.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="AdventSolution01.cpp" />
     <ClCompile Include="AdventSolution02.cpp" />
@@ -80,6 +81,7 @@
     <ClInclude Include="AdventSolution12.h" />
     <ClInclude Include="AdventSolution13.h" />
     <ClInclude Include="AdventSolution14.h" />
+    <ClInclude Include="AdventSolution15.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>
   <ItemGroup>

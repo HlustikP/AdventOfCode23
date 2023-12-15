@@ -13,6 +13,7 @@
 #include "AdventSolution12.h"
 #include "AdventSolution13.h"
 #include "AdventSolution14.h"
+#include "AdventSolution15.h"
 
 int main() {
     std::cout << "AdventOfCode23" << std::endl;
@@ -31,6 +32,7 @@ int main() {
     AdventSolution::solutions.push_back(std::make_unique<AdventSolution12>());
     AdventSolution::solutions.push_back(std::make_unique<AdventSolution13>());
     AdventSolution::solutions.push_back(std::make_unique<AdventSolution14>());
+    AdventSolution::solutions.push_back(std::make_unique<AdventSolution15>());
 
     const auto start = std::chrono::high_resolution_clock::now();
 

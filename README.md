@@ -61,3 +61,7 @@ I am not including any input files, please provide them yourself.
 ### 14
 [Challenge](https://adventofcode.com/2023/day/14)
 [My Solution](AdventSolution14.cpp)
+
+### 15
+[Challenge](https://adventofcode.com/2023/day/15)
+[My Solution](AdventSolution15.cpp)
