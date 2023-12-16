@@ -26,7 +26,7 @@ void AdventSolution15::solve() {
     const auto& input_string = input.value();
 
     std::vector<unsigned char> part1_hashes {};
-    part1_hashes.reserve(std::count(input_string.begin(), input_string.end(), ','));
+    part1_hashes.reserve(std::count(input_string.begin(), input_string.end(), ',') + 1);
 
     int part2_result = 0;
     std::vector<std::vector<Lens>> part2_hashmap(256);

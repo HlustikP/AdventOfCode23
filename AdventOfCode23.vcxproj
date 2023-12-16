@@ -32,6 +32,7 @@
     <ClCompile Include="AdventSolution13.cpp" />
     <ClCompile Include="AdventSolution14.cpp" />
     <ClCompile Include="AdventSolution15.cpp" />
+    <ClCompile Include="AdventSolution16.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="AdventSolution01.cpp" />
     <ClCompile Include="AdventSolution02.cpp" />
@@ -82,6 +83,7 @@
     <ClInclude Include="AdventSolution13.h" />
     <ClInclude Include="AdventSolution14.h" />
     <ClInclude Include="AdventSolution15.h" />
+    <ClInclude Include="AdventSolution16.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>
   <ItemGroup>
@@ -178,6 +180,8 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <StackCommitSize>10000000</StackCommitSize>
+      <StackReserveSize>100000000</StackReserveSize>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

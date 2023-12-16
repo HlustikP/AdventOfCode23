@@ -135,6 +135,9 @@
     <ClCompile Include="AdventSolution15.cpp">
       <Filter>Source Files\15</Filter>
     </ClCompile>
+    <ClCompile Include="AdventSolution16.cpp">
+      <Filter>Source Files\16</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input01.txt">
@@ -263,6 +266,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="AdventSolution15.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventSolution16.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
