@@ -10,7 +10,7 @@ constexpr char WALL_CHAR = '#';
 constexpr int64_t CYCLE_COUNT = 1000000000;
 
 static void move_mirror_up(std::string& input, const size_t line_size, std::string::iterator mirror_itr) {
-    if (mirror_itr - line_size < input.begin()) {
+    if (std::distance(input.begin(), mirror_itr) < line_size) {
         return;
     }
 
@@ -27,6 +27,10 @@ static void move_mirror_up(std::string& input, const size_t line_size, std::stri
 }
 
 static void move_mirror_down(std::string& input, const size_t line_size, std::string::reverse_iterator mirror_itr) {
+    if (std::distance(input.rbegin(), mirror_itr) < line_size) {
+        return;
+    }
+
     auto char_below = mirror_itr - line_size;
     if (*char_below == WALL_CHAR) {
         return;
@@ -34,10 +38,6 @@ static void move_mirror_down(std::string& input, const size_t line_size, std::st
 
     if (*char_below == EMPTY_CHAR) {
         std::swap(*mirror_itr, *char_below);
-    }
-
-    if (char_below < input.rbegin()) {
-        return;
     }
 
     move_mirror_down(input, line_size, char_below);
@@ -65,11 +65,11 @@ static void move_mirror_left(std::string& input, const size_t line_size, std::st
 }
 
 static void move_mirror_right(std::string& input, const size_t line_size, std::string::reverse_iterator mirror_itr) {
-    auto char_right = mirror_itr -1;
-
-    if (char_right < input.rbegin()) {
+    if (mirror_itr == input.rbegin()) {
         return;
     }
+
+    auto char_right = mirror_itr -1;
 
     if (*char_right == WALL_CHAR || *char_right == NEWLINE_DELIMITER) {
         return;

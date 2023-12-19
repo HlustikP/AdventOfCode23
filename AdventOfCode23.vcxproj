@@ -33,6 +33,15 @@
     <ClCompile Include="AdventSolution14.cpp" />
     <ClCompile Include="AdventSolution15.cpp" />
     <ClCompile Include="AdventSolution16.cpp" />
+    <ClCompile Include="AdventSolution17.cpp" />
+    <ClCompile Include="AdventSolution18.cpp" />
+    <ClCompile Include="AdventSolution19.cpp" />
+    <ClCompile Include="AdventSolution20.cpp" />
+    <ClCompile Include="AdventSolution21.cpp" />
+    <ClCompile Include="AdventSolution22.cpp" />
+    <ClCompile Include="AdventSolution23.cpp" />
+    <ClCompile Include="AdventSolution24.cpp" />
+    <ClCompile Include="AdventSolution25.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="AdventSolution01.cpp" />
     <ClCompile Include="AdventSolution02.cpp" />
@@ -64,6 +73,7 @@
     <Text Include="input22.txt" />
     <Text Include="input23.txt" />
     <Text Include="input24.txt" />
+    <Text Include="input25.txt" />
     <Text Include="LICENSE.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -84,6 +94,15 @@
     <ClInclude Include="AdventSolution14.h" />
     <ClInclude Include="AdventSolution15.h" />
     <ClInclude Include="AdventSolution16.h" />
+    <ClInclude Include="AdventSolution17.h" />
+    <ClInclude Include="AdventSolution18.h" />
+    <ClInclude Include="AdventSolution19.h" />
+    <ClInclude Include="AdventSolution20.h" />
+    <ClInclude Include="AdventSolution21.h" />
+    <ClInclude Include="AdventSolution22.h" />
+    <ClInclude Include="AdventSolution23.h" />
+    <ClInclude Include="AdventSolution24.h" />
+    <ClInclude Include="AdventSolution25.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>
   <ItemGroup>

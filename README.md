@@ -69,3 +69,15 @@ I am not including any input files, please provide them yourself.
 ### 16
 [Challenge](https://adventofcode.com/2023/day/16)
 [My Solution](AdventSolution16.cpp)
+
+### 17
+[Challenge](https://adventofcode.com/2023/day/17)
+[My Solution](AdventSolution17.cpp) WIP
+
+### 18
+[Challenge](https://adventofcode.com/2023/day/18)
+[My Solution](AdventSolution18.cpp) WIP
+
+### 19
+[Challenge](https://adventofcode.com/2023/day/19)
+[My Solution](AdventSolution19.cpp) Part 1 done, Part 2 WIP

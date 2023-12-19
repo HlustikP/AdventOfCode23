@@ -85,6 +85,9 @@
     <Filter Include="Source Files\24">
       <UniqueIdentifier>{842264c8-787a-4ffc-a327-c5e3ca9cbf50}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\25">
+      <UniqueIdentifier>{15a3c765-d5af-400c-9719-8843f49b9cb9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AdventSolution01.cpp">
@@ -137,6 +140,33 @@
     </ClCompile>
     <ClCompile Include="AdventSolution16.cpp">
       <Filter>Source Files\16</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventSolution17.cpp">
+      <Filter>Source Files\17</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventSolution18.cpp">
+      <Filter>Source Files\18</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventSolution19.cpp">
+      <Filter>Source Files\19</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventSolution20.cpp">
+      <Filter>Source Files\20</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventSolution21.cpp">
+      <Filter>Source Files\21</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventSolution22.cpp">
+      <Filter>Source Files\22</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventSolution23.cpp">
+      <Filter>Source Files\23</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventSolution24.cpp">
+      <Filter>Source Files\24</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventSolution25.cpp">
+      <Filter>Source Files\25</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -215,6 +245,9 @@
     <Text Include="LICENSE.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="input25.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="utils.h">
@@ -269,6 +302,33 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="AdventSolution16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventSolution17.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventSolution18.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventSolution19.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventSolution20.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventSolution21.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventSolution22.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventSolution23.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventSolution24.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventSolution25.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

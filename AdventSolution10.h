@@ -4,7 +4,7 @@
 
 class AdventSolution10 : public AdventSolution {
 public:
-    AdventSolution10() : AdventSolution(fs::path("input10.txt"), "Advent of Code 10 - TBD") {};
+    AdventSolution10() : AdventSolution(fs::path("input10.txt"), "Advent of Code 10 - Pipe Maze") {};
 
     void solve() override;
 };
